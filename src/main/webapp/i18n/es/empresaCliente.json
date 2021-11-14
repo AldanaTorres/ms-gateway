@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "empresaCliente": {
+      "home": {
+        "title": "Clientes",
+        "createLabel": "Crear nuevo Cliente",
+        "createOrEditLabel": "Crear o editar Cliente",
+        "notFound": "Ningún Clientes encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Cliente {{ id }}?"
+      },
+      "detail": {
+        "title": "Cliente"
+      },
+      "nombre": "Nombre",
+      "direccion": "Direccion",
+      "cUIL": "C UIL",
+      "telefono": "Telefono",
+      "empresa": "Empresa"
+    }
+  },
+  "empresaApp": {
+    "empresaCliente": {
+      "created": "Un nuevo Cliente ha sido creado con el identificador {{ param }}",
+      "updated": "Un Cliente ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Cliente ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

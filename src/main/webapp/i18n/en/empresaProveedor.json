@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "empresaProveedor": {
+      "home": {
+        "title": "Proveedors",
+        "createLabel": "Create a new Proveedor",
+        "createOrEditLabel": "Create or edit a Proveedor",
+        "notFound": "No Proveedors found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Proveedor {{ id }}?"
+      },
+      "detail": {
+        "title": "Proveedor"
+      },
+      "nombre": "Nombre",
+      "direccion": "Direccion",
+      "cuit": "Cuit",
+      "telefono": "Telefono",
+      "empresa": "Empresa"
+    }
+  },
+  "empresaApp": {
+    "empresaProveedor": {
+      "created": "A new Proveedor is created with identifier {{ param }}",
+      "updated": "A Proveedor is updated with identifier {{ param }}",
+      "deleted": "A Proveedor is deleted with identifier {{ param }}"
+    }
+  }
+}

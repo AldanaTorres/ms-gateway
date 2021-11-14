@@ -1,0 +1,41 @@
+{
+  "name": "Empresa",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cUIT",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "telefono",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "cliente",
+      "otherEntityRelationshipName": "empresa",
+      "relationshipName": "cliente"
+    }
+  ],
+  "changelogDate": "20211112001312",
+  "entityTableName": "empresa",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "empresa",
+  "applications": "*",
+  "microserviceName": "empresa"
+}
